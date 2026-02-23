@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Еске алу асы</title>
+  <meta name="theme-color" content="#072018" />
+  <link rel="preload" href="assets/portrait.jpg" as="image" />
+  <link rel="preload" href="assets/music.mp3" as="audio" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <audio id="audio" src="assets/music.mp3" autoplay preload="auto"></audio>
+
+  <div class="toast" id="audioToast" role="status" aria-live="polite">
+    <div class="toast-card">
+      <div class="toast-title">Дыбыс</div>
+      <div class="toast-text">Телефон дыбысты автоматты қоспауы мүмкін. Дыбысты қосу үшін түртіңіз.</div>
+      <button class="btn small" id="enableAudio">Қосу</button>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <!-- Page 1 -->
+    <section class="page" id="p1">
+      <div class="frame">
+        <div class="ornament"></div>
+        <div class="content">
+          <div class="portrait">
+            <img src="assets/portrait.jpg" alt="Мәриям Ахметжанқызы" />
+          </div>
+          <div class="caption">
+            <div class="name">Ляшенко (Қарбаева) Мәриям Ахметжанқызы</div>
+            <div class="dates">09.07.1950-15.04.2016</div>
+          </div>
+          <div class="hint">Төмен сырғытыңыз</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page 2 -->
+    <section class="page" id="p2">
+      <div class="frame">
+        <div class="ornament"></div>
+        <div class="content">
+          <div class="title">Еске алу асы</div>
+          <pre class="text">ҚҰРМЕТТІ АҒАЙЫН-ТУЫС, БАУЫРЛАР, ҚҰДА-ЖЕКЖАТ, НАҒАШЫ-ЖИЕН, БӨЛЕЛЕР, ҚҰРБЫ-ҚҰРДАС, АПКЕ-ЖЕЗДЕЛЕР, ДОС-ЖАРАНДАР, ӘРІПТЕСТЕР, КӨРШІЛЕР!
+
+Сіздерді Асыл Анамыз Мәриям Ахметжанқызын еске алу асына шақырамыз
+
+2026 жылғы 12 сәуір
+сағат 12.30
+
+Ас берушілер
+Светлана-Әділбек
+Вячеслав-Елена</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page 3 -->
+    <section class="page" id="p3">
+      <div class="frame">
+        <div class="ornament"></div>
+        <div class="content">
+          <div class="title">Мекен-жай</div>
+          <pre class="text">Мекен-жай:
+Астана қаласы
+Қорғалжын шоссе, 29
+SANTAU банкет залы</pre>
+          <a class="btn" href="https://go.2gis.com/hqEdX" target="_blank" rel="noopener">2GIS картасын ашу</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page 4 -->
+    <section class="page" id="p4">
+      <div class="frame">
+        <div class="ornament"></div>
+        <div class="content">
+          <div class="title">Растау</div>
+          <pre class="text">Мына сілтеме арқылы келе алатыныңызды растауды сұраймыз</pre>
+          <a class="btn" href="https://docs.google.com/spreadsheets/d/145Bf9VdzxfEPMB9ZmZLoMr0C8imee0o9UnvfPO_H-vE/edit?usp=sharing" target="_blank" rel="noopener">
+            <span class="icon" aria-hidden="true"></span>
+            Google кестесіне өту
+          </a>
+          <div class="fine">Сілтеме ашылмаса, браузер арқылы ашып көріңіз.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
